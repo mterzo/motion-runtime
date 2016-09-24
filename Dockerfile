@@ -11,4 +11,6 @@ RUN apt-get -y update && apt-get install -y \
         libswscale-ffmpeg3 \
         libv4l-0 \
         libsqlite3-0 \
+        libmysql++3v5 \
+        libpqxx-4.0 \
     && rm -rf /var/lib/apt/lists/*
